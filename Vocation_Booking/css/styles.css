@@ -1,0 +1,84 @@
+* {
+  padding: length;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.landing-page {
+  background: white url("../Images1/pexels-pixabay-533769.jpg") no-repeat scroll
+    center;
+  height: 100vh;
+  background-size: cover;
+  color: brown;
+}
+
+.landing-page .wrapper {
+  background-color: rgba(0, 0, 0, 0);
+  height: 100px;
+}
+
+.landing-page .flex-content {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250%;
+  width: 100%;
+}
+
+.landing-page .vocationheading {
+  font-size: 150%;
+  color: blue;
+}
+
+.btn {
+  color: black;
+  font-size: 120%;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.vocation-header {
+  background: radial-gradient(blue, green);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.vocation-header.heading {
+  font-size: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main-nav {
+  background-color: lightgray;
+
+  text-align: center;
+  padding: 9px;
+}
+
+.main-nav a {
+  color: red;
+  text-decoration: double;
+  padding: 10px 20px;
+}
+
+.main-nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.main-nav a:hover {
+  background-color: teal;
+  color: greenyellow;
+  border-radius: 20px;
+}
